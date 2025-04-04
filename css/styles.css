@@ -786,14 +786,20 @@ ol {
   position: absolute;
 }
 
-input:checked + label > .modal-checkbox-span {
+/* input:checked + label > .modal-checkbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+} */
+
+.modal-checkbox-input:checked + .modal-checkbox-label span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-checkbox-label {
