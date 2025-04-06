@@ -781,8 +781,8 @@ ol {
 
 .modal-checkbox-block {
   margin-bottom: 24px;
-  visibility: hidden;
-  position: absolute;
+  /* visibility: hidden; */
+  /* position: absolute; */
 }
 
 .modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-span {
@@ -793,6 +793,10 @@ ol {
 
 .modal-field {
   margin-bottom: 8px;
+}
+
+.modal-field-comment {
+  margin-bottom: 16px;
 }
 
 .modal-checkbox-label {
